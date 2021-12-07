@@ -121,18 +121,30 @@ strong {
 	/*padding-left: 70px;*/
 }
 .stats img {
-	float: right;
+	/*float: right;*/
 	/*padding-right: 10px;*/
 	border: 1px solid grey;
+	width: 450px;
+}
+#stimg {
+	float: right;
+	width: 450px;
 }
 .stats {
-	height: 400px;
+	height: 450px;
+}
+#stimg p {
+	/*float: right;*/
+	/*width: 450px;*/
+	text-align: center;
+	padding-top: 0;
+	margin-top: 5px;
 }
 .reviews {
 	height: 550px;
 }
 .stats p, .solution p {
-	padding: 10px;
+	padding: 5px 10px 5px 10px;
 }
 .appeal img {
 	float: right;
@@ -153,4 +165,11 @@ strong {
 .appeal ul li {
 	padding-bottom: 10px;
 	font-size: 24px;
+}
+.wrap h1 {
+	text-align: center;
+}
+#sec {
+	text-align: center;
+	font-size: 1.4em;
 }
