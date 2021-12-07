@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+.body {
+	font-family: Times New Roman;
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+.nav {
+    float: right;
+    font: bold 18px;
+   /* border: 1px solid #121314;
+    border-top: 1px solid #2b2e30;
+    border-radius: 0px;*/
+    overflow: hidden;
+    width:66%;
+    margin-top: 40px;
+}
+.nav ul {
+	/*float: left;*/
+    margin:0;
+    padding:0;
+    list-style:none;
+    overflow: hidden;
+}
+.nav ul li a{
+    float: left;
+    padding: 13px 46px;
+    color: darkorange;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    /*text-shadow:1px 1px orange;*/
+    /*background:#3C4042;*/
+}
+.nav ul li a:active, .nav ul li a:hover {
+	color: darkgreen;
+	text-decoration: none;
+}
+header {
+	background-color: rgba(255, 255, 0, 0.75);
+}
+header img {
+	width: 13.9%;
+	height: 120px;
+}
+.wraphead {
+	height: 400px;
+	background-image: url(img/parking3.jpeg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+#main {
+	font-size: 70px;
+	font-weight: bold;
+	color: darkorange;
+	position: relative;
+	left: 50%;
+	background-color: rgba(255, 255, 0, 0.75);
+}
+.back {
+	background-color: rgba(255, 255, 0, 0.75);
+}
