@@ -19,6 +19,8 @@ html {
     overflow: hidden;
     width:66%;
     margin-top: 40px;
+    /*margin-bottom: 0;
+    padding-bottom: 0;*/
 }
 .nav ul {
 	/*float: left;*/
@@ -30,7 +32,7 @@ html {
 .nav ul li a{
     float: left;
     padding: 13px 46px;
-    color: darkorange;
+    color: orangered;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -42,12 +44,19 @@ html {
 	text-decoration: none;
 }
 header {
-	background-color: rgba(255, 255, 0, 0.75);
+	background-color: rgba(255, 235, 59, 0.80);
 }
 header img {
 	width: 13.9%;
 	height: 120px;
 }
+/*.wrap {
+	background-color: black;
+	height: 2000px;
+	margin-top: 0;
+	padding-top: 0;
+
+}*/
 .wraphead {
 	height: 400px;
 	background-image: url(img/parking3.jpeg);
@@ -62,7 +71,64 @@ header img {
 	position: relative;
 	left: 50%;
 	background-color: rgba(255, 255, 0, 0.75);
+	width: 50%;
 }
 .back {
-	background-color: rgba(255, 255, 0, 0.75);
+	background-color: rgba(255, 235, 59, 0.80);
+}
+strong {
+	font-size: 1.25em;
+}
+.about img {
+	float: right;
+	width: 400px;
+	height: 300px;
+	/*padding: 10px;*/
+	border: 1px solid grey;
+}
+.about p, .about h2 {
+	padding: 10px;
+}
+.contact ul li img {
+	width: 50px;
+	padding-right: 20px;
+}
+.contact ul {
+	list-style: none;
+}
+.contact a, .solution a {
+	color: orangered;
+}
+.contact a:active, .solution a:hover, .contact a:hover, .solution a:active {
+	color: yellow;
+}
+.reviews ul li img {
+	width: 300px;
+	height: 350px;
+}
+.reviews ul {
+	list-style: none;
+	/*float: right;*/
+}
+.reviews ul li {
+	float: left;
+	width: 32%;
+	text-align: left;
+	/*padding-right: 100px;*/
+}
+.reviews ul li p {
+	width: 300px;
+	/*padding-left: 70px;*/
+}
+.stats img {
+	float: right;
+}
+.stats {
+	height: 400px;
+}
+.reviews {
+	height: 450px;
+}
+.stats p, .solution p {
+	padding: 10px;
 }
