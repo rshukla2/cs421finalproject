@@ -96,10 +96,10 @@ strong {
 .contact ul {
 	list-style: none;
 }
-.contact a, .solution a {
+.contact a, .solution a, .appeal a {
 	color: orangered;
 }
-.contact a:active, .solution a:hover, .contact a:hover, .solution a:active {
+.contact a:active, .solution a:hover, .contact a:hover, .solution a:active, .appeal a:active, .appeal a:hover {
 	color: yellow;
 }
 .reviews ul li img {
@@ -122,6 +122,8 @@ strong {
 }
 .stats img {
 	float: right;
+	/*padding-right: 10px;*/
+	border: 1px solid grey;
 }
 .stats {
 	height: 400px;
@@ -131,4 +133,24 @@ strong {
 }
 .stats p, .solution p {
 	padding: 10px;
+}
+.appeal img {
+	float: right;
+	width: 300px;
+	padding: 10px;
+}
+.appeal div img {
+	float: right;
+	width: 500px;
+	padding: 10px;
+}
+.appeal p {
+	padding: 3px 10px 3px 10px;
+}
+.appeal ul {
+	list-style: none;
+}
+.appeal ul li {
+	padding-bottom: 10px;
+	font-size: 24px;
 }
